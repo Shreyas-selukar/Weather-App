@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const API_KEY = "1be3f4a1fc8854e75aed83ce808be3c0"; // 🔑 Replace with your OpenWeatherMap key
 
 export default function App() {
-  const [city, setCity] = useState("Berlin");
+  const [city, setCity] = useState("Mumbai");
   const [query, setQuery] = useState("");
   const [weather, setWeather] = useState(null);
   const [forecast, setForecast] = useState(null);
